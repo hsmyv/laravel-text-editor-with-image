@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\TextController;
 use Illuminate\Support\Facades\Route;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
@@ -13,5 +15,8 @@ Route::group(
         Route::get('/', function () {
             return view('index');
         });
+        Route::get('/', [HomeController::class, 'index'])->name('main.index');
+
+        Route::get('/text-editor', [TextController::class, 'create'])->name('textEditor.create');
 
     });

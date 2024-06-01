@@ -12,9 +12,9 @@
 
     <x-aboutus/>
 
-    <x-client/>
+    {{-- <x-client/> --}}
 
-    <x-pricing-table/>
+    {{-- <x-pricing-table/> --}}
 
 
     <x-footer/>
