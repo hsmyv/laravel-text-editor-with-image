@@ -30,7 +30,7 @@
                             {{ session('error') }}
                         </div>
                     @endif
-                        <form action="" method="POST" enctype="multipart/form-data" >
+                        <form action="{{route('text-editor.store')}}" method="POST" enctype="multipart/form-data" >
                             @csrf
                             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                                 <div class="pr-3">

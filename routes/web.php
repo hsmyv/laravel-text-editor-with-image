@@ -17,6 +17,6 @@ Route::group(
         });
         Route::get('/', [HomeController::class, 'index'])->name('main.index');
 
-        Route::get('/text-editor', [TextController::class, 'create'])->name('textEditor.create');
+        Route::resource('/text-editor', TextController::class);
 
     });
