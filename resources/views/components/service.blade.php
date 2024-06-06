@@ -5,7 +5,7 @@
           <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
             <h4>Amazing <em>Services &amp; Features</em> for you</h4>
             <img src="{{asset("assets/images/heading-line-dec.png")}}" alt="">
-            <p>If you need the greatest collection of HTML templates for your business, please visit <a rel="nofollow" href="https://www.toocss.com/" target="_blank">TooCSS</a> Blog. If you need to have a contact form PHP script, go to <a href="https://templatemo.com/contact" target="_parent">our contact page</a> for more information.</p>
+            <p>If you need the greatest collection of HTML templates for your business, please send message to <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hsmmusayev@gmail.com&su=I need Programmer&body=Hello, Hasan" target="_parent">hsmusayev@gmail.com</a> for more information.</p>
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@
           <div class="service-item third-service">
             <div class="icon"></div>
             <h4>Multi Workflow Idea</h4>
-            <p>If this template is beneficial for your work, please support us <a rel="nofollow" href="https://paypal.me/templatemo" target="_blank">a little via PayPal</a>. Thank you.</p>
+            <p>If this template is beneficial for your work, please support us a little</a>. Thank you.</p>
             <div class="text-button">
               <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
             </div>

@@ -12,11 +12,9 @@
                   </div>
                   <div class="col-lg-12">
                     <div class="white-button first-button scroll-to-section">
-                      <a href="#contact">Free Quote <i class="fab fa-apple"></i></a>
+                      <a href="#contact">Explore Text Editor <i class="fab fa-readme"></i></a>
                     </div>
-                    <div class="white-button scroll-to-section">
-                      <a href="#contact">Free Quote <i class="fab fa-google-play"></i></a>
-                    </div>
+
                   </div>
                 </div>
               </div>

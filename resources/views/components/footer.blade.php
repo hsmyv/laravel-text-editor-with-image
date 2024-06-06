@@ -28,42 +28,30 @@
         <div class="col-lg-3">
           <div class="footer-widget">
             <h4>Contact Us</h4>
-            <p>Rio de Janeiro - RJ, 22795-008, Brazil</p>
-            <p><a href="#">010-020-0340</a></p>
-            <p><a href="#">info@company.co</a></p>
+            <p>Baku, Azerbaijan</p>
+            <p><a href="#">Telegram: @hsmyv</a></p>
+            <p><a href="#">hsmusayev@gmail.com</a></p>
           </div>
         </div>
         <div class="col-lg-3">
           <div class="footer-widget">
             <h4>About Us</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Pricing</a></li>
+              <li><a href="#top">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#about">About</a></li>
             </ul>
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Pricing</a></li>
-            </ul>
+
           </div>
         </div>
         <div class="col-lg-3">
           <div class="footer-widget">
             <h4>Useful Links</h4>
             <ul>
-              <li><a href="#">Free Apps</a></li>
-              <li><a href="#">App Engine</a></li>
-              <li><a href="#">Programming</a></li>
-              <li><a href="#">Development</a></li>
-              <li><a href="#">App News</a></li>
+              <li><a href="https://github.com/hsmyv" target="_blank">Github</a></li>
+              <li><a href="https://ourprojectlaravel.000webhostapp.com/" target="_blank">Another Website</a></li>
+              <li><a href="https://ourprojectlaravel.000webhostapp.com/" target="_blank">Games</a></li>
             </ul>
-            <ul>
-              <li><a href="#">App Dev Team</a></li>
-              <li><a href="#">Digital Web</a></li>
-              <li><a href="#">Normal Apps</a></li>
             </ul>
           </div>
         </div>
@@ -71,15 +59,14 @@
           <div class="footer-widget">
             <h4>About Our Company</h4>
             <div class="logo">
-              <img src="{{asset("/assets/images/white-logo.png")}}" alt="">
+              <img src="{{asset("/assets/images/hslogo.png")}}" alt="">
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            <p>Software engineer specializing in frontend, backend, and game development.</p>
           </div>
         </div>
         <div class="col-lg-12">
           <div class="copyright-text">
-            <p>Copyright © 2022 Chain App Dev Company. All Rights Reserved.
-          <br>Design: <a href="https://templatemo.com/" target="_blank" title="css templates">TemplateMo</a></p>
+            <p>Copyright © 2024 <a href="https://github.com/hsmyv" target="_blank" title="css templates" style="color: blue">HStudio</a>. All Rights Reserved.</p>
           </div>
         </div>
       </div>
