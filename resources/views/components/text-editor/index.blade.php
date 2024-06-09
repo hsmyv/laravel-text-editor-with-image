@@ -13,12 +13,6 @@
 
 
     <div class="wrapper">
-
-        <!--
-      ====================================
-      ——— LEFT SIDEBAR WITH FOOTER
-      =====================================
-    -->
     <x-text-editor.sidebar/>
 
 
@@ -61,7 +55,7 @@
                                         <tr>
                                             <td >{{$text->id}}</td>
 
-                                            <td class="d-none d-md-table-cell"> <a href="{{ route('text-editor.edit', $text->id) }}">{{$text->title ?? 'No Title'}}</a></td>
+                                            <td class="d-none d-md-table-cell"> <a href="{{ route('text-editor.show', $text->id) }}">{{$text->title ?? 'No Title'}}</a></td>
                                             <td class="text-right">
                                                 <div class="dropdown show d-inline-block widget-dropdown">
                                                     <a class="dropdown-toggle icon-burger-mini" href="#" role="button" id="dropdown-recent-order5" data-toggle="dropdown" aria-haspopup="true"

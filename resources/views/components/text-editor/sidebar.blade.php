@@ -3,7 +3,7 @@
     <div id="sidebar" class="sidebar sidebar-with-footer">
         <!-- Aplication Brand -->
         <div class="app-brand">
-            <a href="">
+            <a href="{{route('main.index')}}">
                 <img width="180px" src="{{asset('assets/images/hslogo.png')}}">
             </a>
         </div>

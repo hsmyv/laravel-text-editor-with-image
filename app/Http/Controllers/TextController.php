@@ -21,6 +21,13 @@ class TextController extends Controller
         return view("components.text-editor.index", compact('texts'));
 
     }
+
+    public function show(Text $text_editor)
+    {
+        return view("components.text-editor.show", compact('text_editor'));
+
+    }
+
     public function store(Request $request)
     {
         try {

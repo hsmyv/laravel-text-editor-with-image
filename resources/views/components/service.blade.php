@@ -18,7 +18,7 @@
             <h4>App Maintenance</h4>
             <p>You are not allowed to redistribute this template ZIP file on any other website.</p>
             <div class="text-button">
-              <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
+              {{-- <a href="#">Read More <i class="fa fa-arrow-right"></i></a> --}}
             </div>
           </div>
         </div>
@@ -28,7 +28,7 @@
             <h4>Rocket Speed of App</h4>
             <p>You are allowed to use the Chain App Dev HTML template. Feel free to modify or edit this layout.</p>
             <div class="text-button">
-              <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
+              {{-- <a href="#">Read More <i class="fa fa-arrow-right"></i></a> --}}
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@
             <h4>Multi Workflow Idea</h4>
             <p>If this template is beneficial for your work, please support us a little</a>. Thank you.</p>
             <div class="text-button">
-              <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
+              {{-- <a href="#">Read More <i class="fa fa-arrow-right"></i></a> --}}
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@
             <h4>24/7 Help &amp; Support</h4>
             <p>Lorem ipsum dolor consectetur adipiscing elit sedder williamsburg photo booth quinoa and fashion axe.</p>
             <div class="text-button">
-              <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
+              {{-- <a href="#">Read More <i class="fa fa-arrow-right"></i></a> --}}
             </div>
           </div>
         </div>

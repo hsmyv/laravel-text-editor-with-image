@@ -34,7 +34,7 @@
                             @csrf
                             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                                 <div class="pr-3">
-                                    <a class="btn btn-success" href="">  <i class="mdi mdi-keyboard-backspace"></i></i> Back</a>
+                                    <a class="btn btn-success" href="{{route('text-editor.index')}}">  <i class="mdi mdi-keyboard-backspace"></i></i> Back</a>
                                 </div>
                                 @foreach($languages as $key=>$language)
                                     <li class="nav-item">
