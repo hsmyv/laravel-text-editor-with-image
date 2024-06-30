@@ -50,7 +50,7 @@
             <ul>
               <li><a href="https://github.com/hsmyv" target="_blank">Github</a></li>
               <li><a href="https://ourprojectlaravel.000webhostapp.com/" target="_blank">Another Website</a></li>
-              <li><a href="https://ourprojectlaravel.000webhostapp.com/" target="_blank">Games</a></li>
+              <li><a href="https://github.com/hsmyv" target="_blank">Games</a></li>
             </ul>
             </ul>
           </div>

@@ -48,9 +48,10 @@
 
             <div class="content-wrapper">
                 <div class="content">
+                    <a href="{{route('text-editor.create')}}" type="button" class=" mb-2 mr-50 btn btn-success">
+                        <i class=" mdi mdi-plus-outline mr-1"></i> Add new</a>
                     <div class="row">
-                            <a href="{{route('text-editor.create')}}" type="button" class=" mb-2 mr-50 btn btn-success">
-                                <i class=" mdi mdi-plus-outline mr-1"></i> Add new</a>
+
 
                                 <div class="card-body pt-0 pb-5">
                                     <h2 class="text-editor-title">{{ $text_editor->title }}</h2>
