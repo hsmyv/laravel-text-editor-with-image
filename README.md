@@ -1,4 +1,5 @@
 # Hello all users of summernote. I wanna contribute to summernote in this texteditor that makes easy you can store images without base64 at database.
+This is my first contribution in programming area. ⭐Please review and give stars⭐
 
 ![01_image1](https://github.com/hsmyv/laravel-text-editor-with-image/assets/111653544/4b71dbc5-c839-40a3-9935-e5954c118c31)
 ![02_image1](https://github.com/hsmyv/laravel-text-editor-with-image/assets/111653544/3985496f-8373-4b1d-8f3b-950256a15186)
