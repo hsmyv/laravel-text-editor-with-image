@@ -38,7 +38,7 @@ class TextController extends Controller
             $text = new Text();
             foreach ($request->input('translations', []) as $locale => $translation) {
                 $text->setTranslation('title', $locale, $translation['title']);
-                $this->saveContentWihoutBASE64($text, $locale, $translation['content'] ?? '');
+                $this->saveContentWihoutBASE64($text, $locale, $translation, 'content' ?? '');
 
 
             }
@@ -58,7 +58,7 @@ class TextController extends Controller
 
             foreach ($request->input('translations', []) as $locale => $translation) {
                 $text_editor->setTranslation('title', $locale, $translation['title']);
-                $this->saveContentWihoutBASE64($text_editor, $locale, $translation['content'] ?? '');
+                $this->saveContentWihoutBASE64($text_editor, $locale, $translation, 'content' ?? '');
 
             }
 
@@ -86,10 +86,10 @@ class TextController extends Controller
     }
 
 
-    function saveContentWihoutBASE64($model, $locale, $item){
+    function saveContentWihoutBASE64($model, $locale,$translation, $item){
         //Modified by Hasan Musa to contribute SummerNote
             $dom = new \DomDocument();
-                @$dom->loadHTML(mb_convert_encoding($item ?? ' ', 'HTML-ENTITIES', 'UTF-8'));
+                @$dom->loadHTML(mb_convert_encoding($translation[$item] ?? ' ', 'HTML-ENTITIES', 'UTF-8'));
 
                 $images = $dom->getElementsByTagName('img');
 
@@ -121,10 +121,8 @@ class TextController extends Controller
                     }
                 }
 
-            // Save the modified HTML content back to $description
             $htmlContent = $dom->saveHTML();
 
-            // Update the translation with the modified HTML content
-            $model->setTranslation('content', $locale, $htmlContent);
+            $model->setTranslation($item, $locale, $htmlContent);
     }
 }
